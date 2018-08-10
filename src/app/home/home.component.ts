@@ -7,11 +7,8 @@ import {Component, OnChanges, OnInit} from '@angular/core';
 })
 export class HomeComponent implements OnInit, OnChanges {
   skillList: string[] = [
-    'New Skill',
     'Dispirit',
-    'New Evolve',
     'Animalcule',
-    'Cachaxia'
   ];
   skillChosen: string;
   nm: string;
@@ -26,8 +23,12 @@ export class HomeComponent implements OnInit, OnChanges {
     console.log('I changed');
   }
 
-  onSkillChosen(skill: string) {
-    console.log(skill);
-    this.skillChosen = skill;
+  onSkillChosen1(skillList: string) {
+    console.log(skillList);
+    this.skillChosen = this.skillList[0] + " is a new Hex skill and it deals substantial damage to enmey.";
+  }
+  onSkillChosen2(skillList: string) {
+    console.log(skillList);
+    this.skillChosen = this.skillList[1] + " is a new Arcana skill that cna be evolved from Hex skill.";
   }
 }

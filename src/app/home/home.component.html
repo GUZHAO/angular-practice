@@ -1,20 +1,34 @@
 <div class="container">
-  <!--<div class="cont">New Skill</div>-->
-  <!--<div class="cont">Dispirit</div>-->
-  <!--<div class="cont">New Evolve</div>-->
-  <!--<div class="cont">Animalcule</div>-->
-
-  <div class="cont" *ngFor="let skill of skillList"
-       (click)="onSkillChosen(skill)">
-    {{ skill }}
+  <div class="cont">
+    <p class="newSkill">New Skill Update</p>
+    <button class="btn" (click)="onSkillChosen1(skillList)">Dispirit</button>
+    <p class="msg" *ngIf="skillChosen">
+      {{ skillChosen }}
+    </p>
   </div>
-  <p class="msg" *ngIf="skillChosen">
-    the skill you chose is {{ skillChosen }}
-  </p>
+
+  <div class="cont">
+    <p class="newSkill">New Evolve</p>
+    <button class="btn" (click)="onSkillChosen2(skillList)">Animalcule</button>
+    <p class="msg" *ngIf="skillChosen">
+      {{ skillChosen }}
+    </p>
+  </div>
 </div>
-<div class="container2">
-  <input type="text" class="name" [(ngModel)]="nm"
-         name="nm">
-  <p class="ttt">{{ nm }}</p>
-</div>
+
+
+<!--<div class="cont" *ngFor="let skill of skillList"-->
+<!--(click)="onSkillChosen(skill)">-->
+<!--{{ skill }}-->
+<!--</div>-->
+<!--<p class="msg" *ngIf="skillChosen">-->
+<!--the skill you chose is {{ skillChosen }}-->
+<!--</p>-->
+
+<!--<div class="container2">-->
+<!--<input type="text" class="name" [(ngModel)]="nm"-->
+<!--name="nm">-->
+<!--<p class="ttt">{{ nm }}</p>-->
+<!--</div>-->
+
 

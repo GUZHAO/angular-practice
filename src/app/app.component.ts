@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  text: string = "";
+
+
+  onMenuTextClicked(evt: string) {
+    console.log(evt);
+    this.text = evt;
+  }
 }

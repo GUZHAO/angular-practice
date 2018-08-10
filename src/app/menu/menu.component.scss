@@ -1,0 +1,26 @@
+/*
+ *
+ * Style Main
+ *
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+$font-stack: Lato, sans-serif;
+$primary-color: #4286f4;
+
+.menu-container {
+  width: 1200px;
+  height: 50px;
+  background: $primary-color;
+  margin: auto;
+  .menu-item {
+    font-family: $font-stack;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    float: right;
+  }
+}
+

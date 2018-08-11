@@ -1,0 +1,462 @@
+[
+ { 
+   "Category": "Invocation",
+   "Rank": "C",
+   "Ability": "Spark",
+   "Modifier": "Maul",
+   "Target": "Single",
+   "Range": "",
+   "ElementEffect": "Thunder",
+   "Damage": "Light"
+ },
+ {
+   "Category": "Invocation",
+   "Rank": "B",
+   "Ability": "Wind Shear",
+   "Modifier": "Slash",
+   "Target": "Single",
+   "Range": "",
+   "ElementEffect": "",
+   "Damage": "Moderate"
+ },
+ {
+   "Category": "Invocation",
+   "Rank": "B",
+   "Ability": "Double Time",
+   "Modifier": "",
+   "Target": "Single",
+   "Range": "",
+   "ElementEffect": "SPD Up",
+   "Damage": ""
+ },
+ { 
+   "Category": "Invocation",
+   "Rank": "A",
+   "Ability": "Caustic Blast",
+   "Modifier": "Maul",
+   "Target": "Area",
+   "Range": "",
+   "ElementEffect": "Lytic",
+   "Damage": "Heavy"
+ },
+ { 
+   "Category": "Invocation",
+   "Rank": "A",
+   "Ability": "Permafrost",
+   "Modifier": "Slash",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Frost",
+   "Damage": "Heavy"
+ },
+ { 
+   "Category": "Invocation",
+   "Rank": "S",
+   "Ability": "Wildfire",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Flame",
+   "Damage": "Substantial"
+ },
+ { 
+   "Category": "Invocation",
+   "Rank": "S",
+   "Ability": "Grenade Impact",
+   "Modifier": "Bludgeon",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Flame",
+   "Damage": "Substantial"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "C",
+   "Ability": "Mystic Missile",
+   "Modifier": "Pierce",
+   "Target": "Single",
+   "Range": "Long",
+   "ElementEffect": "",
+   "Damage": "Light"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "B",
+   "Ability": "Flash Arrow",
+   "Modifier": "Pierce",
+   "Target": "Single",
+   "Range": "Long",
+   "ElementEffect": "",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "B",
+   "Ability": "Silencer",
+   "Modifier": "Pierce",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Silence",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "B",
+   "Ability": "Eclipse",
+   "Modifier": "Pierce",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "A",
+   "Ability": "Snare Shot",
+   "Modifier": "Pierce",
+   "Target": "Area",
+   "Range": "Long",
+   "ElementEffect": "Black Out",
+   "Damage": "Heavy"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "S",
+   "Ability": "Palsy Skein",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Paralyze",
+   "Damage": "Substantial"
+ },
+ { 
+   "Category": "Evocation",
+   "Rank": "S",
+   "Ability": "Mystic Mine",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "",
+   "Damage": "Substantial"
+ },
+ { 
+   "Category": "Hex",
+   "Rank": "C",
+   "Ability": "Poison Gas",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Venom",
+   "Damage": "Light"
+ },
+ { 
+   "Category": "Hex",
+   "Rank": "B",
+   "Ability": "Paralyze Gas",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Paralyze",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Hex",
+   "Rank": "B",
+   "Ability": "Silent Gas",
+   "Modifier": "Pierce",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Silence",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Hex",
+   "Rank": "B",
+   "Ability": "Smoke Canister",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Hex",
+   "Rank": "A",
+   "Ability": "Dispirit",
+   "Modifier": "Bludgeon",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Morale Down",
+   "Damage": "Heavy"
+ },
+ { 
+   "Category": "Hex",
+   "Rank": "S",
+   "Ability": "Bewitch",
+   "Modifier": "Bludgeon",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Morale Down",
+   "Damage": "Substantial"
+ },
+ {
+   "Category": "Hex",
+   "Rank": "S",
+   "Ability": "Cachexia",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Clear AP",
+   "Damage": "Substantial"
+ },
+ { 
+   "Category": "Remedy",
+   "Rank": "C",
+   "Ability": "Restore",
+   "Modifier": "",
+   "Target": "Single",
+   "Range": "",
+   "ElementEffect": "Recovery",
+   "Damage": ""
+ },
+ { 
+   "Category": "Remedy",
+   "Rank": "B",
+   "Ability": "Refresh",
+   "Modifier": "",
+   "Target": "Single",
+   "Range": "",
+   "ElementEffect": "Clear Status Ailments",
+   "Damage": ""
+ },
+ { 
+   "Category": "Remedy",
+   "Rank": "B",
+   "Ability": "Rejuvenate",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Clear Stat Debuffs",
+   "Damage": ""
+ },
+ { 
+   "Category": "Remedy",
+   "Rank": "A",
+   "Ability": "Revitalize",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Recovery",
+   "Damage": ""
+ },
+ {
+   "Category": "Remedy",
+   "Rank": "S",
+   "Ability": "Support",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "STR / INT / SPD Up",
+   "Damage": ""
+ },
+ { 
+   "Category": "Remedy",
+   "Rank": "S",
+   "Ability": "Kiss of Life",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Revive",
+   "Damage": ""
+ },
+ { 
+   "Category": "Remedy",
+   "Rank": "S",
+   "Ability": "Second Chance",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Revive / Clear Status Ailments",
+   "Damage": ""
+ },
+ { 
+   "Category": "Psionic",
+   "Rank": "C",
+   "Ability": "Bluff",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Morale Down",
+   "Damage": ""
+ },
+ { 
+   "Category": "Psionic",
+   "Rank": "B",
+   "Ability": "Confuse",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Paralyze",
+   "Damage": "Moderate"
+ },
+ {
+   "Category": "Psionic",
+   "Rank": "B",
+   "Ability": "Enrage",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "ATK Up / DEF Down",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Psionic",
+   "Rank": "B",
+   "Ability": "Addle",
+   "Modifier": "Pierce",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Morale Down",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Psionic",
+   "Rank": "A",
+   "Ability": "Maledict",
+   "Modifier": "Maul",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Curse",
+   "Damage": "Moderate"
+ },
+ { 
+   "Category": "Psionic",
+   "Rank": "S",
+   "Ability": "Stealth",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Stealth",
+   "Damage": ""
+ },
+ { 
+   "Category": "Psionic",
+   "Rank": "S",
+   "Ability": "Mixed Message",
+   "Modifier": "Pierce",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Morale Down",
+   "Damage": ""
+ },
+ { 
+   "Category": "Ward",
+   "Rank": "C",
+   "Ability": "Orphic Ward",
+   "Modifier": "",
+   "Target": "Single (XBOX)\nUnion (PC)",
+   "Range": "Long",
+   "ElementEffect": "Orphic Ward",
+   "Damage": ""
+ },
+ { 
+   "Category": "Ward",
+   "Rank": "A",
+   "Ability": "Protection",
+   "Modifier": "",
+   "Target": "Single (XBOX)\nUnion (PC)",
+   "Range": "Long",
+   "ElementEffect": "Protection",
+   "Damage": ""
+ },
+ {
+   "Category": "Ward",
+   "Rank": "S",
+   "Ability": "Decoy",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Decoy",
+   "Damage": ""
+ },
+ { 
+   "Category": "Ward",
+   "Rank": "SS",
+   "Ability": "Cheer",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "Long",
+   "ElementEffect": "Morale Up",
+   "Damage": ""
+ },
+ { 
+   "Category": "Ward",
+   "Rank": "SS",
+   "Ability": "Band of Champions",
+   "Modifier": "",
+   "Target": "Union",
+   "Range": "",
+   "ElementEffect": "Stats Up",
+   "Damage": ""
+ },
+ { 
+   "Category": "Arcana",
+   "Rank": "A",
+   "Ability": "Blackout",
+   "Modifier": "Slash",
+   "Target": "All",
+   "Range": "Long",
+   "ElementEffect": "Thunder",
+   "Damage": "Substantial"
+ },
+ {
+   "Category": "Arcana",
+   "Rank": "S",
+   "Ability": "Whiteout",
+   "Modifier": "Bludgeon",
+   "Target": "All",
+   "Range": "Long",
+   "ElementEffect": "Frost",
+   "Damage": "Substantial"
+ },
+ { 
+   "Category": "Arcana",
+   "Rank": "SS",
+   "Ability": "Animalcule",
+   "Modifier": "Bludgeon",
+   "Target": "All",
+   "Range": "Long",
+   "ElementEffect": "Paralyze / Silence / Poison / Black Out",
+   "Damage": "Heavy"
+ },
+ { 
+   "Category": "Arcana",
+   "Rank": "SS",
+   "Ability": "Rejuvenating Water",
+   "Modifier": "",
+   "Target": "All",
+   "Range": "Long",
+   "ElementEffect": "Recovery",
+   "Damage": ""
+ },
+ {
+   "Category": "Arcana",
+   "Rank": "SS",
+   "Ability": "Fatal Eclipse",
+   "Modifier": "Omni",
+   "Target": "All",
+   "Range": "Long",
+   "ElementEffect": "",
+   "Damage": "Extreme"
+ },
+ { 
+   "Category": "Arcana",
+   "Rank": "SS",
+   "Ability": "Crimson Flare",
+   "Modifier": "Omni",
+   "Target": "All",
+   "Range": "Long",
+   "ElementEffect": "",
+   "Damage": "Extreme"
+ }
+]

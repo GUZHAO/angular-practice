@@ -6,6 +6,7 @@ import {MenuComponent} from './menu/menu.component';
 import {HomeModule} from './home/home.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ArtComponent } from './art/art.component';
+import {ServicesModule} from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ArtComponent } from './art/art.component';
   imports: [
     BrowserModule,
     HomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

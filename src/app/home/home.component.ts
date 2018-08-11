@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit, OnChanges {
     'Animalcule',
   ];
   skillChosen: string;
+  skillChosen2: string;
   nm: string;
 
   constructor() {
@@ -29,6 +30,6 @@ export class HomeComponent implements OnInit, OnChanges {
   }
   onSkillChosen2(skillList: string) {
     console.log(skillList);
-    this.skillChosen = this.skillList[1] + " is a new Arcana skill that cna be evolved from Hex skill.";
+    this.skillChosen2 = this.skillList[1] + " is a new Arcana skill that cna be evolved from Hex skill.";
   }
 }

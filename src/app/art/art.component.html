@@ -13,4 +13,12 @@
     <div class="arcana">Arcana</div>
   </div>
 </div>
+<div class="skillData">
+  <ul class="skills">
+    <li class="oneSkill" *ngFor="let skill of (sList$ | async)">
+      {{ skill?.Ability}}
+    </li>
+  </ul>
+  {{ (sList$ | async) | json }}
+</div>
 

@@ -1,24 +1,21 @@
-<div class="art">
-  <div class="layer1">
-    <div class="firstGroup">Invocation</div>
-    <div class="firstGroup">Evocation</div>
-    <div class="firstGroup">Hex</div>
-  </div>
-  <div class="layer2">
-    <div class="secondGroup">Remedy</div>
-    <div class="secondGroup">Psionic</div>
-    <div class="secondGroup">Ward</div>
-  </div>
-  <div class="layer3">
-    <div class="arcana">Arcana</div>
-  </div>
+<div class="skill">
+  <mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile>
+      <mat-card>Angular</mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+  </mat-grid-list>
 </div>
-<div class="skillData">
-  <ul class="skills">
-    <li class="oneSkill" *ngFor="let skill of (sList$ | async)">
-      {{ skill?.Ability}}
-    </li>
-  </ul>
-  {{ (sList$ | async) | json }}
-</div>
+<!--<div class="skillData">-->
+<!--<ul class="skills">-->
+<!--<li class="oneSkill" *ngFor="let skill of (sList$ | async)">-->
+<!--{{ skill?.Ability}}-->
+<!--</li>-->
+<!--</ul>-->
+<!--{{ (sList$ | async) | json }}-->
+<!--</div>-->
 

@@ -1,35 +1,24 @@
-/*
- *
- * Style Main
- *
- */
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
-.logo {
-  display: inline-block;
-  position: absolute;
-  font-family: Lato, sans-serif;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  justify-content: center;
-  z-index: 9999; }
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  font-family: Lato, sans-serif; }
 
-.menu-container {
-  position: relative;
-  width: 100%;
-  height: 50px;
-  background: #ffde03;
-  margin: 0;
-  padding: 0;
-  line-height: 50px;
-  list-style-type: none; }
-  .menu-container .menu-item {
-    font-family: Lato, sans-serif;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    margin: auto;
-    padding: 0 20px;
-    float: right; }
+.logo-word-ver {
+  border: #c01e5c 2px solid;
+  font-weight: 500;
+  padding: 0 1em; }
+
+a {
+  color: #c01e5c;
+  text-decoration: none; }
+
+.placeholder {
+  flex: 1 1 auto; }
+
+.menu-item {
+  font: 300 1em Lato, sans-serif;
+  color: #c01e5c;
+  text-decoration: none; }
 
 /*# sourceMappingURL=menu.component.css.map */

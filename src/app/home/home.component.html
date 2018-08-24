@@ -1,20 +1,42 @@
-<div class="container">
-  <div class="cont">
-    <p class="newSkill">New Skill Update</p>
-    <button class="btn" (click)="onSkillChosen1(skillList)">Dispirit</button>
-    <p class="msg" *ngIf="skillChosen">
-      {{ skillChosen }}
-    </p>
-  </div>
-
-  <div class="cont">
-    <p class="newSkill">New Evolve</p>
-    <button class="btn" (click)="onSkillChosen2(skillList)">Animalcule</button>
-    <p class="msg" *ngIf="skillChosen2">
-      {{ skillChosen2 }}
-    </p>
-  </div>
+<div class="home">
+  <mat-grid-list cols="1" rowHeight="260px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <img src="assets/logo.svg" alt="logo" class="logo">
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-grid-list cols="1" rowHeight="40px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <div class="desc1"><span class="underline">My Angular Skill Tracking App</span></div>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <div class="desc2">Currently v1.0.0</div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-grid-list cols="1" rowHeight="100px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <button mat-flat-button color="primary" class="intro">See it in Action</button>
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>
+
+
+<!--<div class="container">-->
+<!--<div class="cont">-->
+<!--<p class="newSkill">New Skill Update</p>-->
+<!--<button class="btn" (click)="onSkillChosen1(skillList)">Dispirit</button>-->
+<!--<p class="msg" *ngIf="skillChosen">-->
+<!--{{ skillChosen }}-->
+<!--</p>-->
+<!--</div>-->
+
+<!--<div class="cont">-->
+<!--<p class="newSkill">New Evolve</p>-->
+<!--<button class="btn" (click)="onSkillChosen2(skillList)">Animalcule</button>-->
+<!--<p class="msg" *ngIf="skillChosen2">-->
+<!--{{ skillChosen2 }}-->
+<!--</p>-->
+<!--</div>-->
+<!--</div>-->
 
 
 <!--<div class="cont" *ngFor="let skill of skillList"-->

@@ -1,43 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
 $font-stack: Lato, sans-serif;
-$primary-color: #ffde03;
-$menu-color: #ffde03;
+$primary-color: #c01e5c;
+$menu-color: #c01e5c;
 $side-color: #0336ff;
 
-.container {
-  width: 50%;
-  margin: auto;
+.home {
+  padding-top: 8em;
 }
 
-.newSkill {
-  font-family: $font-stack;
-  font-size: 50px;
-  text-align: center;
+.logo {
+  width: 80px;
+  border: $primary-color 3px solid;
+  padding: 1em;
 }
 
-.btn {
-  display: flex;
-  outline: none;
-  margin: auto;
-  height: 40px;
-  width: 150px;
-  border-radius: 40px;
-  background: #fff;
-  color: $side-color;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  font-family: $font-stack;
-  font-size: 20px;
+.desc1 {
+  font: 300 2em $font-stack;
+}
+
+.desc2 {
+  font: 300 1em $font-stack;
+}
+
+.underline {
+  background: linear-gradient(120deg, #c01e5c 0%, #c01e5c 100%) no-repeat 0 88%;
+  background-size: 100% 0.1em;
+  transition: background-size 0.25s ease-in;
   &:hover {
-    color:white;
-    background: $side-color;
+    background-size: 10% 0;
+    cursor: pointer;
   }
 }
 
-.msg {
-  font-family: $font-stack;
-  font-size: 20px;
-  text-align: center;
-}

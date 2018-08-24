@@ -4,21 +4,26 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {MenuComponent} from './menu/menu.component';
 import {HomeModule} from './home/home.module';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { ArtComponent } from './art/art.component';
 import {ServicesModule} from './services/services.module';
+import {MaterialModule} from './material/material.module';
+import {ArtModule} from './art/art.module';
+import { MustKnowComponent } from './must-know/must-know.component';
+import { ProjectComponent } from './project/project.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    ArtComponent
+    MustKnowComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
     HomeModule,
-    BrowserAnimationsModule,
-    ServicesModule
+    ArtModule,
+    ServicesModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

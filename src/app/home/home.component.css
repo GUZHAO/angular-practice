@@ -2,22 +2,28 @@
   padding-top: 8em; }
 
 .logo {
-  width: 80px;
+  font-family: Lato, sans-serif;
+  color: #c01e5c;
   border: #c01e5c 3px solid;
-  padding: 1em; }
+  padding: 0.5em 1em; }
 
 .desc1 {
-  font: 300 2em Lato, sans-serif; }
+  font-family: Lato, sans-serif;
+  font-weight: 300; }
 
 .desc2 {
   font: 300 1em Lato, sans-serif; }
 
 .underline {
   background: linear-gradient(120deg, #c01e5c 0%, #c01e5c 100%) no-repeat 0 88%;
-  background-size: 100% 0.1em;
+  background-size: 100% 0.3em;
   transition: background-size 0.25s ease-in; }
   .underline:hover {
-    background-size: 10% 0;
+    background-size: 100% 88%;
     cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
 
 /*# sourceMappingURL=home.component.css.map */

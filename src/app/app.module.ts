@@ -6,9 +6,10 @@ import {MenuComponent} from './menu/menu.component';
 import {HomeModule} from './home/home.module';
 import {ServicesModule} from './services/services.module';
 import {MaterialModule} from './material/material.module';
-import {ArtModule} from './art/art.module';
+import {SkillModule} from './skill/skill.module';
 import { MustKnowComponent } from './must-know/must-know.component';
 import { ProjectComponent } from './project/project.component';
+import {AppRoutingModule} from './app-routing.module';
 
 
 @NgModule({
@@ -21,9 +22,10 @@ import { ProjectComponent } from './project/project.component';
   imports: [
     BrowserModule,
     HomeModule,
-    ArtModule,
+    SkillModule,
     ServicesModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

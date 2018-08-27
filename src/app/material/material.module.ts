@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
-  MatButtonModule, MatCardModule,
+  MatButtonModule, MatCardModule, MatCheckboxModule, MatFormFieldModule,
   MatGridListModule,
   MatIconModule, MatListModule,
   MatMenuModule,
@@ -22,7 +22,10 @@ import {
     MatTabsModule,
     MatTreeModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    MatCheckboxModule,
+    MatTreeModule,
+    MatFormFieldModule
   ],
   exports: [
     MatToolbarModule,
@@ -33,7 +36,10 @@ import {
     MatTabsModule,
     MatTreeModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    MatCheckboxModule,
+    MatTreeModule,
+    MatFormFieldModule
   ]
 })
 export class MaterialModule {

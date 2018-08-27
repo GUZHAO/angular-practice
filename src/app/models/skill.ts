@@ -1,12 +1,11 @@
 import {Rank} from './rank.options';
 
 export interface Skill {
+  Technology: string;
+  // Version: Rank;
+  Version: number;
+  Level: string;
   Category: string;
-  Rank: Rank;
-  Ability: string;
-  Modifier: string;
-  Target: string;
-  Range: string;
-  ElementEffect: string;
-  Damage: string;
+  Question: string;
+  Answer: string;
 }

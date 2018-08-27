@@ -7,7 +7,7 @@ mat-toolbar {
 .logo-word-ver {
   border: #c01e5c 2px solid;
   font-weight: 500;
-  padding: 0 1em; }
+  padding: 0 0.5em; }
 
 a {
   color: #c01e5c;

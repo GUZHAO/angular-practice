@@ -1,8 +1,25 @@
-<mat-list>
-  <h3 mat-subheader>Must-Know</h3>
-  <mat-list-item *ngFor="let skill of (sList$ | async)">
-    <mat-icon mat-list-icon>question_answer</mat-icon>
-    <h4 mat-line>{{skill?.Question}}</h4>
-    <p mat-line> {{skill.updated | date}} </p>
-  </mat-list-item>
-</mat-list>
+<mat-card>Must-Know Section</mat-card>
+<mat-grid-list cols="1" rowHeight="800px" class="must-know">
+  <mat-grid-tile>
+    <mat-list>
+      <mat-tab-group dynamicHeight>
+        <mat-tab label="Terminology">
+          <mat-list-item *ngFor="let skill of (sList$ | async)">
+            <mat-icon mat-list-icon>question_answer</mat-icon>
+            <h4 mat-line>{{skill?.Question}}</h4>
+            <p mat-line> {{skill?.Level}} </p>
+          </mat-list-item>
+        </mat-tab>
+        <mat-tab label="App">
+          <mat-list-item *ngFor="let car of (sCar$ | async)">
+            <mat-icon mat-list-icon>question_answer</mat-icon>
+            <h4 mat-line>{{car?.carMake}}</h4>
+            <p mat-line> {{car?.carModel}} </p>
+          </mat-list-item>
+        </mat-tab>
+        <mat-tab label="Concept">
+        </mat-tab>
+      </mat-tab-group>
+    </mat-list>
+  </mat-grid-tile>
+</mat-grid-list>

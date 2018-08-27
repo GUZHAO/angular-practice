@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {ArtComponent} from './art.component';
+import {SkillComponent} from './skill.component';
 import {FormsModule} from '@angular/forms';
 import {MaterialModule} from '../material/material.module';
 
@@ -12,12 +12,12 @@ import {MaterialModule} from '../material/material.module';
     MaterialModule
   ],
   declarations: [
-    ArtComponent
+    SkillComponent
   ],
   exports: [
-    ArtComponent,
+    SkillComponent,
     MaterialModule
   ]
 })
-export class ArtModule {
+export class SkillModule {
 }

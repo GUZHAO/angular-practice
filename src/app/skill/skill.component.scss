@@ -2,7 +2,13 @@ $font-stack: Lato, sans-serif;
 $primary-color: #000;
 $menu-color: #c01e5c;
 
+mat-card {
+  font-family: $font-stack;
+}
 
+p {
+  font-family: $font-stack;
+}
 
 
 

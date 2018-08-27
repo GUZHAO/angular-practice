@@ -1,10 +1,10 @@
 <mat-toolbar class="menu">
-  <span class="logo-word-ver"><a href="/">Rhubarb</a></span>
+  <span class="logo-word-ver"><a href="/">R</a></span>
   <span class="placeholder"></span>
   <button mat-button [matMenuTriggerFor]="menu" color="primary"><mat-icon>menu</mat-icon></button>
   <mat-menu #menu="matMenu" >
-    <button mat-menu-item>Skill</button>
-    <button mat-menu-item>Must-Know</button>
+    <button mat-menu-item routerLink="/skill">Skill</button>
+    <button mat-menu-item (click)="onMustknow()">Must-Know</button>
     <button mat-menu-item>Project</button>
   </mat-menu>
 </mat-toolbar>

@@ -1,0 +1,32 @@
+<mat-card>Skill Section</mat-card>
+<mat-grid-list cols="2" class="container">
+  <mat-grid-tile class="cont">
+        <div>
+          <button mat-button class="newSkill">Component</button>
+          <mat-checkbox class="btn" (click)="onSkillChosen1(skillList)">Create a Component</mat-checkbox>
+        </div>
+        <div>
+          <button mat-button class="newSkill">Module</button>
+          <mat-checkbox class="btn" (click)="onSkillChosen2(skillList)">Create a Module</mat-checkbox>
+        </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <p class="msg" *ngIf="skillChosen">
+      {{ skillChosen }}
+    </p>
+    <p class="msg" *ngIf="skillChosen2">
+      {{ skillChosen2 }}
+    </p>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+<!--<div class="skillData">-->
+<!--<ul class="skills">-->
+<!--<li class="oneSkill" *ngFor="let skill of (sList$ | async)">-->
+<!--{{ skill?.Ability}}-->
+<!--</li>-->
+<!--</ul>-->
+<!--{{ (sList$ | async) | json }}-->
+<!--</div>-->
+

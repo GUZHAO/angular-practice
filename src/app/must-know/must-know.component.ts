@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs';
 import {Skill} from '../models/skill';
 import {SkillsService} from '../services/skills.service';
-import {flatMap, take, toArray} from 'rxjs/operators';
+import {Car} from '../models/car';
+import {CarServiceService} from '../services/car-service.service';
 
 @Component({
   selector: 'app-must-know',
@@ -11,14 +12,19 @@ import {flatMap, take, toArray} from 'rxjs/operators';
 })
 export class MustKnowComponent implements OnInit {
   sList$: Observable<Skill[]>;
-  constructor(private skillsService: SkillsService) { }
+  sCar$: Observable<Car[]>;
+
+  constructor(private skillsService: SkillsService
+  , private carService: CarServiceService) {
+  }
 
   ngOnInit() {
     this.sList$ = this.skillsService.findAll().pipe(
-      flatMap(s => s),
-      take(5),
-      toArray()
+      // flatMap(s => s),
+      // take(5),
+      // toArray()
     );
+    this.sCar$ = this.carService.findAll();
   }
 
 }

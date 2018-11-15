@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAIA,QAAS;EACP,WAAW,EALA,gBAAgB;;AAQ7B,CAAE;EACA,WAAW,EATA,gBAAgB",
-"sources": ["art.component.scss"],
+"sources": ["skill.component.scss"],
 "names": [],
-"file": "art.component.css"
+"file": "skill.component.css"
 }
